@@ -185,7 +185,7 @@ html {
 }
 @media (max-width: 580px) {
     .top_visual{
-        height: 150px;
+        height: 125px;
     }
     .top_title{
         font-size: 25px;
