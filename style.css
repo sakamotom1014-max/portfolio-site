@@ -151,7 +151,7 @@ html {
 @media (max-width: 767px) {
     .top_visual{
         background-image: url("img/swtopsp.jpg");
-        height: 150px;
+        height: 200px;
         background-attachment: scroll;
         background-size: cover;
     }
@@ -178,17 +178,11 @@ html {
     }
 }
 @media (max-width: 580px) {
-    .top_visual{
-        height: 120px;
-    }
     .top_title{
         font-size: 25px;
     }
 }
 @media (max-width: 420px) {
-    .top_visual{
-        height: 100px;
-    }
     .top_title{
         font-size: 24px;
     }
