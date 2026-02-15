@@ -184,6 +184,9 @@ html {
     }
 }
 @media (max-width: 580px) {
+    .top_visual{
+        height: 150px;
+    }
     .top_title{
         font-size: 25px;
     }
