@@ -11,10 +11,16 @@ body{
     color: #2d2d2d;
     margin: 0 auto;
     background-image: url("img/background.jpg");
-    background-color: rgba(255, 150, 50, 0.2);
-    background-blend-mode: multiply;
     background-repeat: repeat;
 }
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 150, 50, 0.2);
+    pointer-events: none;
+    z-index: -1;
+  }
 .top_section{
     margin: 5rem 0 3rem;
 }
