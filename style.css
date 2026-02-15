@@ -10,7 +10,7 @@ body{
     font-style: normal;
     color: #2d2d2d;
     margin: 0 auto;
-    background-image: url("img/background.jpg");
+    background-image: url("https://github.com/sakamotom1014-max/portfolio-site/blob/main/img/swtop.jpg?raw=true");
     background-color: rgba(255, 150, 50, 0.2); /* ← ほんのりオレンジ */
     background-blend-mode: multiply;           /* ← 色をなじませる */
     background-repeat: repeat;
@@ -23,7 +23,7 @@ body{
     max-width: 1000px;   /* ← ここで最大幅を1000pxに制限 */
     height: 300px;       /* 表示領域の高さ */
     margin: 0 auto;
-    background-image: url("img/swtop.jpg");
+    background-image: url("https://github.com/sakamotom1014-max/portfolio-site/blob/main/img/background.jpg?raw=true");
     background-size: contain;
     background-position: top center;
     background-attachment: fixed;
@@ -150,7 +150,7 @@ html {
 }
 @media (max-width: 767px) {
     .top_visual{
-         background-image: url("C:/Page1/img/swtopsp.jpg");
+         background-image: url("https://github.com/sakamotom1014-max/portfolio-site/blob/main/img/swtopsp.jpg?raw=true");
          height: 150px;
     }
     .top_title{
