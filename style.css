@@ -11,8 +11,8 @@ body{
     color: #2d2d2d;
     margin: 0 auto;
     background-image: url("main/img/background.jpg");
-    background-color: rgba(255, 150, 50, 0.2); /* ← ほんのりオレンジ */
-    background-blend-mode: multiply;           /* ← 色をなじませる */
+    background-color: rgba(255, 150, 50, 0.2);
+    background-blend-mode: multiply;
     background-repeat: repeat;
 }
 .top_section{
@@ -20,8 +20,8 @@ body{
 }
 .top_visual {
     width: 100%;
-    max-width: 1000px;   /* ← ここで最大幅を1000pxに制限 */
-    height: 300px;       /* 表示領域の高さ */
+    max-width: 1000px;
+    height: 300px;
     margin: 0 auto;
     background-image: url("main/img/swtop.jpg");
     background-size: contain;
